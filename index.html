@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sectioning Content</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <style type="text/css" media="all">
+      p
+      {
+        color: rgb(17, 38, 84);
+        font-family: "helvetica", sans-serif;
+      }
+      h1
+      {
+        font-family: bold, "helvetica", sans-serif;
+        color: black;
+        border: 4px groove rgba(22, 106, 106, 0.8);
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Sectioning content</h1>
+    </header>
+    <nav role="navigation" id = "global-nav">
+      <h2>GLobal navigation</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">article</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside">aside</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">nav</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section">section</a></li>
+      </ul>
+    </nav>
+    <main role="main" id="main">
+      <section>
+        <article>
+          <header>
+            <h2>Articles</h2>
+          </header>
+          <p>The HTML Article Element (&lt;article&gt;) represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each &lt;article&gt; should be identified, typically by including a heading (h1-h6 element) as a child of the &lt;article&gt; element.</p>
+          <aside>
+          Content categories: Flow content, sectioning content, palpable content.
+          </aside>
+        </article>
+      </section>
+      <section>
+        <article>
+          <header>
+            <h2>Asides</h2>
+          </header>
+          <p>The HTML &lt;aside&gt; element represents a section of the page with content connected tangentially to the rest, which could be considered separate from that content. These sections are often represented as sidebars or inserts. They often contain the definitions on the sidebars, such as definitions from the glossary; there may also be other types of information, such as related advertisements; the biography of the author; web applications; profile information or related links on the blog.</p>
+          <aside>
+          Content categories: Flow content, sectioning content, palpable content.
+          </aside>
+        </article>
+      </section>
+    </main>
+      <footer role="contentinfo">
+        <p id="copyright">Copyright 2015 Sections, Inc.</p>
+      </footer>
+  </body>
+</html>
