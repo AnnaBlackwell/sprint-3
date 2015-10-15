@@ -6,7 +6,7 @@ Key features and benefits of responsive design, and advantages over building mul
 
 Disadvantages of responsive design:
 -It can negatively impact performance on mobile.
--Can cause endless scrolling on mobile. 
+-Can cause endless scrolling on mobile if content is not prioritised. 
 
 My opinion:
 Responsive design seems like a much smarter option - frontloading some of the work to make web page that is flexible and functional regardless of screen size.
