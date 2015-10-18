@@ -1,6 +1,5 @@
 1. Cube
 
-
 function cube (x) {
 return (x*x*x)
 }
@@ -9,11 +8,16 @@ return (x*x*x)
 
 2. Absolute
 
-function absolute ()
-{
+> function absolute (x) {
+...   if (x>0) {
+.....     return (x)
+.....   } else {
+.....     return (x*-1)
+.....   }
+... }
 
-
-}
+> absolute(7)   // returns 7
+> absolute(-3)    // returns 3
 
 3. Names
 
