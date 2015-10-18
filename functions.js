@@ -30,10 +30,25 @@ var names = ['Bill', 'Carl', 'Kat', 'Emil', 'Cath']
 
 4. Make Kia Ora
 
-function makeKiaOra (name)
-{
-  return
-}
+function makeKiaOra (name) {
+... return ('Kia Ora' + ' ' + name);
+... }
 
+var name = 'Anna'
+
+makeKiaOra (name)     // returns 'Kia Ora Anna'
 
 5. Make Since
+
+var since = (new Date)
+
+> since   // returns Sun Oct 18 2015 15:47:02 GMT+1300 (NZDT)
+
+function makeSince(d) {
+  return (new Date() - since);
+  since = since + makeSince;
+}
+
+var since = makeSince(new Date())
+
+    // this is wrong, but I tried!
